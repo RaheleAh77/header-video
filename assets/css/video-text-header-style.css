@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 90vh;
+}
+
+.video-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.title{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 60%;
+    height: 100%;
+    z-index: 999;
+    color: #fff;
+    mix-blend-mode: multiply;
+}
+
+.header-title{
+    font-size: 64px;
+    width: 40%;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.paragraph{
+   font-size: 48px;
+   width: 50%;
+   position: absolute;
+   left: 5%;
+   top: 25%;
+}
+
+.btn{
+    height: 54px;
+    width: 140px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    position: absolute;
+    left: 5%;
+    top: 55%;
+    isolation: isolate;
+}
